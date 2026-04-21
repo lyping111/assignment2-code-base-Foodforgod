@@ -26,4 +26,4 @@ ALTER TABLE `shopping`
 
 INSERT INTO `shopping`(`tracking_number`, `receiving_date`, `product_name`, `cdm`, `weight`) VALUES ('11','20-4-2026','moneytrack','mb1000239','150kg')
 UPDATE `shopping` SET `tracking_number`='13',`receiving_date`='21-4-2026',`product_name`='moneytrack2',`cdm`='mb2918437546',`weight`='160kg' WHERE 1
-DELETE FROM `shopping` WHERE 0
+DELETE FROM `shopping` WHERE 1
