@@ -25,9 +25,9 @@ ALTER TABLE `shopping`
   ADD PRIMARY KEY (`tracking_number`);
 COMMIT;
 ALTER TABLE `shopping`
-  ADD product_name varchar(100);
+  ADD `abc` varchar(100);
 ALTER TABLE `shopping`
-  DROP product_name; 
+  DROP `abc`; 
 
 INSERT INTO `shopping`(`tracking_number`, `receiving_date`, `product_name`, `cdm`, `weight`) VALUES ('11','20-4-2026','moneytrack','mb1000239','150kg')
 UPDATE `shopping` SET `tracking_number`='13',`receiving_date`='21-4-2026',`product_name`='moneytrack2',`cdm`='mb2918437546',`weight`='160kg' WHERE 1
