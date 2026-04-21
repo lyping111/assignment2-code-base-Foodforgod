@@ -16,6 +16,11 @@ CREATE TABLE `shopping` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 
+INSERT INTO `shopping` (`tracking_number`, `receiving_date`, `product_name`, `cdm`, `weight`) VALUES
+('11', '0000-00-00', 'money_track', 10.0000, 100.00);
+
+
+
 ALTER TABLE `shopping`
   ADD PRIMARY KEY (`tracking_number`);
 COMMIT;
